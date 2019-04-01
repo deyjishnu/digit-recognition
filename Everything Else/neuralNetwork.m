@@ -12,10 +12,15 @@ function neuralNetwork(hidden_layer_size, num_train_images, num_test_images, Max
 %  without user intervention. After running each part of this code, the 
 %  function pauses and waits for the user to continue with the next part.
 %  Currently this function requires the following created functions:
-%       displayData.m
-%       nnCostFunction.m
-%       sigmoidGradient.m
-%       randInitializeWeights.m
+
+%       displayData.m -> Display 2D data in a nice grid
+%       nnCostFunction.m -> Implements the neural network cost function for a two layer neural network which performs classification
+%       sigmoidGradient.m -> returns the gradient of the sigmoid function
+%       randInitializeWeights.m -> Randomly initialize the weights of a layer of neurons in the neural network
+%       checkNNGradients.m -> Creates a small neural network to check the backpropagation gradients
+%       validationCurveHoldout.m -> Generate the training and validation errors needed to plot a validation curve that we can use to select regularization parameter
+%       fmincg.m -> a function which works similarly to "fminunc"
+%       predict.m -> Predict the label of an input for a trained neural network
 
 %% Initialization
 clear ; close all; clc

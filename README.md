@@ -61,7 +61,7 @@ Two research papers which helped us:
 1. [Handwritten Digit Recognition with a Back-Propagation Network](https://papers.nips.cc/paper/293-handwritten-digit-recognition-with-a-back-propagation-network) by LeCun et al
 2. [A Set of Features Extraction Methods for the Recognition of the Isolated Handwritten Digits](https://www.researchgate.net/profile/Salim_Ouchtati/publication/271908379_A_Set_of_Features_Extraction_Methods_for_the_Recognition_of_the_Isolated_Handwritten_Digits/links/57ec4a4d08aebb1961ffa8f5/A-Set-of-Features-Extraction-Methods-for-the-Recognition-of-the-Isolated-Handwritten-Digits.pdf) by _Ouchtati, S and Redjimi, M and Bedda, M_
 
-If you want to learn what neural networks are and how to start with Matlab, you can start with this popular [course] by Andrew Ng(https://www.coursera.org/learn/machine-learning).
+If you want to learn what neural networks are and how to start with Matlab, you can start with this popular [course](https://www.coursera.org/learn/machine-learning) by Andrew Ng.
 
 # Acknowledgement 
 
